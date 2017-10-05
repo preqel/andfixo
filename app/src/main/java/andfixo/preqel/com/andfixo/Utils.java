@@ -29,7 +29,8 @@ class Utils {
     //模拟产生bug
     public static void printLog() {
 
-        String error = null;
+        //String error = null;
+        String error="error message";
         Log.d("preqel",error);
 
     }
