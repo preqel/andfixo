@@ -7,7 +7,7 @@ import com.alipay.euler.andfix.AndFixManager;
 import andfixo.preqel.com.andfixo.AndFixPatchManager;
 
 /**
- * Created by wyp on 2017/10/4.
+ * Created by preqel on 2017/10/4.
  */
 
 public class MyApplication extends Application {
@@ -15,11 +15,9 @@ public class MyApplication extends Application {
 public void onCreate(){
     super.onCreate();
     iniAndFix();
-
 }
 
     private void iniAndFix() {
            AndFixPatchManager.getinstance().init(this.getApplicationContext());
-
     }
 }
