@@ -37,5 +37,5 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     compile 'com.alipay.euler:andfix:0.5.0@aar'   //引入andfix模块
-
+    compile 'com.squareup.okhttp:okhttp:2.7.5'   //引入okhttp
 }
